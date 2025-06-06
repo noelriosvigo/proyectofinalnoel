@@ -1,0 +1,51 @@
+:root {
+  --background-color:          #ffffff; /* Fondo claro por defecto */
+  --white-color:               #ffffff;
+  --primary-color:             #007bff;
+  --secondary-color:           #007bff;
+  --section-bg-color:          #ffffff;
+  --dark-color:                #000000;
+  --p-color:                   #000;
+  --border-color:              #e9eaeb;
+  --featured-border-color:     #727aab;
+  --body-font-family: Arial, sans-serif;    --svg-bg-color: #ffffff;
+}
+
+body.dark {
+  --background-color: #121212; /* Fondo oscuro suave para el modo oscuro */
+  --text-color: #e0e0e0; /* Texto claro en el modo oscuro */
+  --primary-color: #66b2ff; /* Azul más suave para los enlaces y encabezados */
+  --secondary-color: #3399ff; /* Azul para los enlaces secundarios */
+  --section-bg-color: #1e1e1e; /* Fondo de secciones más oscuro, pero suave */
+  --p-color: #d1d1d1; /* Gris claro para los párrafos */
+  --border-color: #333333; /* Borde más sutil */    --svg-bg-color: #000000;    
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+}
+
+section {
+  background-color: var(--section-bg-color);
+  border: 1px solid var(--border-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color); /* Títulos en color primario */
+}
+
+a {
+  color: var(--secondary-color); /* Enlaces en color secundario */
+}
+
+p {
+  color: var(--p-color); /* Párrafos en gris suave */
+}
+
+footer {
+  background-color: var(--dark-color); /* Fondo oscuro para el pie de página */
+  color: var(--white-color); /* Texto blanco en el pie de página */
+  border-top: 1px solid var(--border-color); /* Borde sutil en el pie de página */
+}

@@ -1,0 +1,6 @@
+/* Estilo general para el contenedor del perfil */
+.container {
+    max-width: 1200px; /* Máxima anchura para la página */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 100px;
+}
